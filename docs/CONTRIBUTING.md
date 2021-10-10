@@ -45,4 +45,4 @@ Please follow the coding style of the project.
 
 ## License
 
-By contributing your code to this repo, you agree to license your contribution under the [MIT license](/LICENSE).
+By contributing your code to this repo, you agree to license your contribution under the [MIT license](/docs/LICENSE).
