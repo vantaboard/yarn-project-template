@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/blackboardd/yarn-project-template/compare/v1.0.0...v1.0.1) (2021-10-10)
+
+
+### Bug Fixes
+
+* **.husky:** moved husky into the root directory ([c8d9be1](https://github.com/blackboardd/yarn-project-template/commit/c8d9be1baa2878c5ed2ff680e6948616134b91c9))
+
 # 1.0.0 (2021-10-10)
 
 
