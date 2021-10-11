@@ -1,7 +1,12 @@
-Fixes #
+### Summary
+- 
+- 
+- 
 
-Summary: Put summary here
+<br />
 
-- [ ] followed style guidelines
+- [ ] Followed style guidelines
 - [ ] Reviewed my code
 - [ ] Commented my code
+
+Fixes #
