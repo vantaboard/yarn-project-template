@@ -40,8 +40,7 @@ $ yarn start
 
 Please follow the coding style of the project.
 
-- `yarn prettier` reformats the code.
-- `yarn lint` runs manually the linting rules.
+- `yarn format` reformats and lints the code.
 
 ## License
 
