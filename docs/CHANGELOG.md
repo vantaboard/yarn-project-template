@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/blackboardd/yarn-project-template/compare/v1.0.2...v1.0.3) (2021-10-11)
+
+
+### Bug Fixes
+
+* **package.json:** removed clean-webpack plugin which was not in use ([93f612e](https://github.com/blackboardd/yarn-project-template/commit/93f612e275da48eb5cf997b5f30751f794d80abd))
+
 ## [1.0.2](https://github.com/blackboardd/yarn-project-template/compare/v1.0.1...v1.0.2) (2021-10-11)
 
 
