@@ -113,7 +113,6 @@
     "babel-loader": "^8.2.2",
     "babel-plugin-styled-components": "^1.13.2",
     "body-parser": "^1.19.0",
-    "clean-webpack-plugin": "^4.0.0",
     "commitizen": "^4.2.4",
     "core-js": "^3.18.2",
     "css-loader": "^6.4.0",
