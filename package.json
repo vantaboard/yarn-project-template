@@ -12,8 +12,9 @@
     "dist/**/*"
   ],
   "scripts": {
-    "build": "yarn build:webpack && yarn build:typescript && build:storybook",
+    "build": "yarn build:webpack && yarn build:tsc && build:dictionary && build:storybook",
     "build:webpack": "webpack --mode production",
+    "build:dictionary": "style-dictionary build",
     "build:storybook": "build-storybook -s public -o dist/storybook",
     "build:tsc": "tsc",
     "format": "yarn prettier -- --write && yarn lint",
@@ -22,14 +23,19 @@
     "check": "yarn check:tsc && yarn check:format",
     "check:tsc": "tsc --pretty --noEmit",
     "check:format": "yarn prettier -- --list-different",
-    "semantic-release": "semantic-release",
     "start": "yarn start:webpack && yarn start:storybook && start:tsnode",
     "start:webpack": "webpack serve --open",
     "start:tsnode": "ts-node ./src/server/index.ts",
     "start:storybook": "start-storybook -p 6006",
     "test": "yarn test:jest && yarn test:cypress",
     "test:jest": "jest",
-    "test:cypress": "cypress run"
+    "test:cypress": "cypress run",
+    "clean": "yarn clean:webpack && yarn clean:style-dictionary && yarn clean:tsc && yarn clean:storybook",
+    "clean:webpack": "rimraf dist/webpack",
+    "clean:style-dictionary": "style-dictionary clean",
+    "clean:tsc": "rimraf dist/typescript",
+    "clean:storybook": "rimraf dist/storybook",
+    "semantic-release": "semantic-release"
   },
   "msw": {
     "workerDirectory": "public"
@@ -107,6 +113,7 @@
     "babel-loader": "^8.2.2",
     "babel-plugin-styled-components": "^1.13.2",
     "body-parser": "^1.19.0",
+    "clean-webpack-plugin": "^4.0.0",
     "commitizen": "^4.2.4",
     "core-js": "^3.18.2",
     "css-loader": "^6.4.0",

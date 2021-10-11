@@ -5,6 +5,7 @@ import * as webpackDevServer from 'webpack-dev-server';
 
 const config: webpack.Configuration & webpackDevServer.Configuration = {
   entry: "src/index.tsx",
+  devtool: "source-map",
   plugins: [
     new ForkTsCheckerWebpackPlugin({
       async: false,
@@ -37,6 +38,7 @@ const config: webpack.Configuration & webpackDevServer.Configuration = {
   output: {
     path: path.resolve(__dirname, "dist/webpack"),
     filename: "bundle.js",
+    clean: true,
   },
   devServer: {
     static: path.join(__dirname, "dist/webpack"),
