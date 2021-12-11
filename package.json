@@ -82,7 +82,7 @@
     "@lottiefiles/react-lottie-player": "^3.4.1",
     "@mdx-js/react": "^1.6.22",
     "@quickbaseoss/babel-plugin-styled-components-css-namespace": "^1.0.1",
-    "@react-three/drei": "^7.13.1",
+    "@react-three/drei": "^8.0.0",
     "@react-three/fiber": "^7.0.14",
     "@reduxjs/toolkit": "^1.6.2",
     "@semantic-release/changelog": "^6.0.0",
