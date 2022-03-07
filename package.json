@@ -117,7 +117,7 @@
     "core-js": "^3.18.2",
     "css-loader": "^6.4.0",
     "cz-conventional-changelog": "^3.3.0",
-    "dotenv-cli": "^4.0.0",
+    "dotenv-cli": "^5.0.0",
     "esbuild": "^0.13.4",
     "esbuild-register": "^3.0.0",
     "eslint": "8.1.0",
